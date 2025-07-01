@@ -1,0 +1,210 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "allison";
+        font-style: normal;
+        font-weight: normal;
+        font-display: swap;
+        src: url("./assets/fonts/Allison/Allison-Regular.ttf");
+    }
+    @font-face {
+        font-family: "playfair-regular";
+        font-style: normal;
+        font-weight: normal;
+        font-display: swap;
+        src: url("./assets/fonts/PlayFairDisplay/PlayfairDisplay-Regular.ttf");
+    }
+    @font-face {
+        font-family: "playfair-bold";
+        font-style: normal;
+        font-weight: bold;
+        font-display: swap;
+        src: url("./assets/fonts/PlayFairDisplay/PlayfairDisplay-Bold.ttf");
+    }
+    @font-face {
+        font-family: "playfair-medium";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url("./assets/fonts/PlayFairDisplay/PlayfairDisplay-Medium.ttf");
+    }
+    @font-face {
+        font-family: "playfair-semi-bold";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url("./assets/fonts/PlayFairDisplay/PlayfairDisplay-SemiBold.ttf");
+    }
+    @font-face {
+        font-family: "playfair-black";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url("./assets/fonts/PlayFairDisplay/PlayfairDisplay-Black.ttf");
+    }
+    @font-face {
+        font-family: "poppins-regular";
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+        src: url("./assets/fonts/Poppins/Poppins-Regular.ttf");
+    }
+    @font-face {
+        font-family: "poppins-bold";
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+        src: url("./assets/fonts/Poppins/Poppins-Bold.ttf");
+    }
+
+
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+
+      
+
+
+
+
+      .economicsItem {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border-radius: 20%;
+        /* background: white; */
+        border-radius: 5px;
+      }
+      
+      .ellipse-image {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        bottom: 0;
+        right: 0;
+        --size: 100px;
+        --half-size: calc(var(--size) / 2);
+        --stroke-width: 2px;
+        --radius: calc((var(--size) - var(--stroke-width)) / 2);
+        --circumference: calc(var(--radius) * pi * 2);
+        --dash: calc((var(--progress) * var(--circumference)) / 100);
+        --progress: 25;
+      }
+
+      .ellipse-image1 {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        bottom: 0;
+        right: 0;
+        --size: 100px;
+        --half-size: calc(var(--size) / 2);
+        --stroke-width: 2px;
+        --radius: calc((var(--size) - var(--stroke-width)) / 2);
+        --circumference: calc(var(--radius) * pi * 2);
+        --dash: calc((var(--progress) * var(--circumference)) / 100);
+        --progress: 50;
+      }
+
+
+      .ellipse-image2 {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        bottom: 0;
+        right: 0;
+        --size: 100px;
+        --half-size: calc(var(--size) / 2);
+        --stroke-width: 2px;
+        --radius: calc((var(--size) - var(--stroke-width)) / 2);
+        --circumference: calc(var(--radius) * pi * 2);
+        --dash: calc((var(--progress) * var(--circumference)) / 100);
+        --progress: 65;
+      }
+
+
+
+      .ellipse-image3 {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        bottom: 0;
+        right: 0;
+        --size: 100px;
+        --half-size: calc(var(--size) / 2);
+        --stroke-width: 2px;
+        --radius: calc((var(--size) - var(--stroke-width)) / 2);
+        --circumference: calc(var(--radius) * pi * 2);
+        --dash: calc((var(--progress) * var(--circumference)) / 100);
+        --progress: 10;
+      }
+      
+      .fillme {
+        cx: var(--half-size);
+        cy: var(--half-size);
+        r: var(--radius);
+        stroke-width: var(--stroke-width);
+        fill: none;
+        stroke-linecap: round;
+        stroke-dasharray: var(--dash) calc(var(--circumference) - var(--dash));
+        stroke: #DA8E27;
+        transition: stroke-dasharray 0.3s linear 0s;
+      }
+      
+      .ellipse-image:hover {
+        --progress: 100;
+      }
+
+      .ellipse-image1:hover {
+        --progress: 100;
+      }
+
+
+      .ellipse-image2:hover {
+        --progress: 100;
+      }
+
+      .ellipse-image3:hover {
+        --progress: 100;
+      }
+
+
+     
+      .icon:hover path {
+        stroke: '#e29c28'; 
+      }
+  
+      
+}

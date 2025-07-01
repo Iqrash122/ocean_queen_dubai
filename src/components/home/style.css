@@ -1,0 +1,77 @@
+.swiper-wrapper{
+    transition-timing-function: linear !important;
+}
+
+.text-marking{
+    -webkit-text-stroke: 1px rgba(84,89,95,.2);
+    -webkit-text-fill-color: transparent;
+    text-overflow: clip;
+    padding-left:70px;
+    overflow: hidden;
+}
+
+.choose-text-marking{
+    -webkit-text-stroke: 1px rgba(84,89,95,.2);
+    -webkit-text-fill-color: transparent;
+    text-overflow: clip;
+    overflow: hidden;
+}
+
+.text-marking::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-transform: capitalize;
+    width: 0;
+    height: auto;
+    -webkit-text-fill-color: #bfa888;
+    overflow: hidden;
+    padding-left:70px;
+    transition:0.3s all linear;
+}
+
+.text-marking:hover::before{
+    width:100%;
+}
+
+/* In your global styles (e.g., styles.css or tailwind.css) */
+
+/* Remove spin buttons for WebKit browsers (Chrome, Safari) */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Remove spin buttons for Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+
+.custom-multi-select {
+    height: auto;
+    min-height: 40px; /* Adjust height based on content */
+    padding: 8px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #d1d5db; /* Tailwind's border-gray-300 */
+    appearance: none;
+    overflow-y: auto; /* Enable scrolling when multiple items are selected */
+  }
+  
+  .custom-multi-select option {
+    padding: 8px;
+  }
+  
+  .custom-multi-select:focus {
+    border-color: #2563eb; /* Tailwind's blue-600 */
+    outline: none;
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.5); /* Subtle glow effect */
+  }
+  
+
+
+
+  

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dd8510;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <image id="Group_1" data-name="Group 1" x="42" y="1" width="16" height="99" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAABjCAYAAACSRYAOAAACNUlEQVRYhe2YPYsTURSGn5lMZhM3yarrZiZLdCUgomktLLRQBJttVhBcRf+AIIJaiLWNtXbC/gMRrPwD/gQrbbTQVjeJ5GPmyp2dCPORyb2zVnpPEW5O5jy85+S9d5ixPj8/ikJ4wFPgYXypBQi5sFWqgXvATryuAuvzH1QAd4EXcaGMDrCtCjgLvEzlfOCaKuA10Erl6sAZFcAucCEnL4d3HGgvAzwDaslSgQgmIVhS1ekiwC3gZLI4FCKcUV3bEojZKrBZBJCTbyYytlNt9G92vTvvTs0G+1LZhkw7OcXSNOdjs/xp22l4G96Nva+jLx9kYgwcW6TgOpCxp0h+XZkryANczsjPj/VFgHNARQFQyQOcyDFOYaQBPaBxGMBmbNXSAC/jPk3AGuAeBtBYYC5lQF3xL1wIsJMWLqXAskU4RQRjJUC6XxsRUFn1sSouwfB7dAboKCAY/KRz+y1bDz5iu8s9lVawEn1axUdldFMIJojxKAM48MAS2SIEp9XFbfczLRRXzi+awpHe1V5n942vemfKQoS4BDwpDZhHqRaKAFo2zgNobeU8gPZM/voQ/2+AZRFOR9FGkWtdgC+Cqe+2+y27ZiMiih7gUTAcfPN29q7UuhchnOm3EB0SYai9HYwPDMAADMAADMAADMAADGAhQIhg2bNmAUAIbLdZt6LXjfoUJ/j147G3/er+6NN7wsmwjAKq8lHfsp1SCg6GGA2g3BCMEw3gHwHIHTSJ1/uatU1g/BtNxIGO23KPUQAAAABJRU5ErkJggg=="/>
+  <path class="cls-1" d="M42,85h1v18H42V85h0Z"/>
+  <path id="Rectangle_1_copy" data-name="Rectangle 1 copy" class="cls-1" d="M43,41h1V85H43V41h0Z"/>
+</svg>
